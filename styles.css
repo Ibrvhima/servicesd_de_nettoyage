@@ -159,10 +159,9 @@ li .liste-link:hover,
 }
 
 .box-service {
-  max-width: 16rem;
-  border: #333 solid 1px;
+  max-width: 15rem;
+  box-shadow: 1px 1px 1px 2px #d0d4de;
   padding: 1.4rem;
-  text-align: center;
 }
 
 .icone-service{
@@ -172,11 +171,15 @@ li .liste-link:hover,
 }
 
 .title-box {
-  text-align: center;
   font-size: 16px;
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 1rem;
+}
+
+.box-text{
+  font-size: 12px;
+  line-height: 1.5em;
 }
 
 
