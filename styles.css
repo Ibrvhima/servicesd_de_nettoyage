@@ -220,6 +220,7 @@ li .liste-link:hover,
   background-color: #f3f3f3;
   box-shadow: 1px 1px 1px 1px #e0dddd;
   padding: 1.4rem;
+  border-radius: 6px;
 }
 .stap1-title{
   font-size: 12px;
