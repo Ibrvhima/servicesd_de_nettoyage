@@ -162,6 +162,7 @@ li .liste-link:hover,
   max-width: 15rem;
   box-shadow: 1px 1px 1px 2px #d0d4de;
   padding: 1.4rem;
+  border-radius: 6px;
 }
 
 .icone-service {
@@ -234,4 +235,42 @@ li .liste-link:hover,
 .stap2-image{
   height: 30rem;
   border-radius: 8px;
+}
+
+/**************************section teams*******************************/
+.section-team{
+  padding:  4.8rem 9.6rem;
+  background-color: #eff4fb;
+}
+
+.team{
+  text-align: center;
+}
+
+.team-description{
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.service-box{
+  margin-bottom: 2rem;
+}
+.team-box-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4REM;
+}
+.personal{
+  height: 20rem;
+  border-radius: 6px;
+}
+
+.team-bouton{
+  text-decoration: none;
+  background-color: #1e5ec4;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 6px;
 }
