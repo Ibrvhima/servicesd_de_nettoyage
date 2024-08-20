@@ -274,3 +274,25 @@ li .liste-link:hover,
   color: #fff;
   border-radius: 6px;
 }
+
+/**********************working process****************************/
+.working-process{
+  padding: 4.8rem 9.6rem;
+
+}
+.process-working{
+  font-size: 1.8rem;
+}
+
+.img{
+  height: 10rem;
+  border-radius: 8px;
+}
+
+.boxes-process{
+  display: flex;
+}
+.boxx{
+  margin-top: 10px;
+  text-align: center;
+}
