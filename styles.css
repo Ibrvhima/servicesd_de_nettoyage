@@ -43,8 +43,8 @@ li .liste-link:link,
 
 li .liste-link:hover,
 .liste-link:active {
-  border: 2px solid #1e5ec4;
-  border-radius: 8px;
+  box-shadow: inset 1px 0px 3px 1px #1e5ec4;
+  border-radius:  8px;
 }
 
 /********************************section hero******************************/
