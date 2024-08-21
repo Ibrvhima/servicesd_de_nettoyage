@@ -312,3 +312,88 @@ li .liste-link:hover,
   font-weight: 800;
   margin-bottom: 10px;
 }
+
+/************************section prcie*******************************/
+.section-pricing{
+  padding: 4.8rem 9.6rem;
+}
+
+.pricing{
+  text-align: center;
+}
+
+.price-description{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.price-boxes{
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.box-price{
+  width: 20rem;
+  border-radius: 8px;
+}
+.box-top{
+  background-color: #1e5ec4;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: relative;
+}
+
+.box-title{
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.box-number{
+  font-size: 2.6rem;
+  font-weight: 900;
+  padding: 15px;
+}
+
+.box-number::before{
+  content: "$";
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+.box-number::after{
+  content: "/visit";
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 5px;
+  right: 100px;
+}
+
+.box-bottom{
+  background-color: #e9eff9;
+  padding: 1.4rem 1.8rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  
+}
+
+.box-flexy-list{
+line-height: 1.9em;
+font-weight: 500;
+font-size: 18px;
+}
+
+.box-list{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/****************************tesmonials******************************/
