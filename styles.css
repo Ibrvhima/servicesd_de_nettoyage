@@ -285,14 +285,30 @@ li .liste-link:hover,
 }
 
 .img{
-  height: 10rem;
+  height: 12rem;
   border-radius: 8px;
 }
 
 .boxes-process{
   display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  
+  
 }
 .boxx{
-  margin-top: 10px;
+  margin-top: 30px;
   text-align: center;
+}
+
+.number{
+  font-weight: 900;
+  font-size: 2rem;
+  color: #dbdfe6;
+  
+}
+
+.stape{
+  font-weight: 800;
+  margin-bottom: 10px;
 }
