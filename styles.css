@@ -397,3 +397,31 @@ font-size: 18px;
 }
 
 /****************************tesmonials******************************/
+.section-testimonial{
+  padding: 4.8rem 9.6rem;
+
+}
+
+.testimoninal{
+  text-align: center;
+}
+
+.testimonial-desc{
+  font-size: 1.8rem;
+}
+
+.testimonial-box{
+  width: 30rem;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.img-customer{
+  height: 4rem;
+}
+
+.box-testimo-items{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
