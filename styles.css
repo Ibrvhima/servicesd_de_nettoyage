@@ -422,6 +422,7 @@ font-size: 18px;
   box-shadow: inset 0px 0px 6px 0px #d0d4de;
   padding: 20px;
   border-radius: 8px;
+  position: relative;
 }
 
 .img-customer{
@@ -442,3 +443,15 @@ font-size: 18px;
   margin-top: 10px;
   text-align: start;
 }
+.mesage::after{
+  content: "”";
+  font-size: 10rem;
+  color: #f1f3f4;
+  font-style: italic;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+
+
+  
