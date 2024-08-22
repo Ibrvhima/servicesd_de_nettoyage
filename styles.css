@@ -44,7 +44,7 @@ li .liste-link:link,
 li .liste-link:hover,
 .liste-link:active {
   box-shadow: inset 1px 0px 3px 1px #1e5ec4;
-  border-radius:  8px;
+  border-radius: 8px;
 }
 
 /********************************section hero******************************/
@@ -192,82 +192,82 @@ li .liste-link:hover,
 }
 
 /*****************section invite*******************************/
-.section-invite{
+.section-invite {
   padding: 4.8rem 9.6rem;
 }
-.invit-description{
+.invit-description {
   font-size: 2rem;
   font-weight: 800;
   line-height: 2rem;
   margin-bottom: 1rem;
 }
 
-.stapes{
+.stapes {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 3rem;
 }
 
-.stap1-grid{
+.stap1-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 16px;
 }
 
-.stap1-box{
+.stap1-box {
   max-width: 20rem;
   background-color: #f3f3f3;
   box-shadow: 1px 1px 1px 1px #e0dddd;
   padding: 1.4rem;
   border-radius: 6px;
 }
-.stap1-title{
+.stap1-title {
   font-size: 12px;
   margin-bottom: 10px;
 }
-.stap1-texte{
+.stap1-texte {
   font-size: 12px;
   line-height: 1.5em;
 }
 
-.stap2-image{
+.stap2-image {
   height: 30rem;
   border-radius: 8px;
 }
 
 /**************************section teams*******************************/
-.section-team{
-  padding:  4.8rem 9.6rem;
+.section-team {
+  padding: 4.8rem 9.6rem;
   background-color: #eff4fb;
 }
 
-.team{
+.team {
   text-align: center;
 }
 
-.team-description{
+.team-description {
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 2rem;
 }
 
-.service-box{
+.service-box {
   margin-bottom: 2rem;
 }
-.team-box-image{
+.team-box-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4REM;
+  gap: 4rem;
 }
-.personal{
+.personal {
   height: 20rem;
   border-radius: 6px;
 }
 
-.team-bouton{
+.team-bouton {
   text-decoration: none;
   background-color: #1e5ec4;
   padding: 10px 20px;
@@ -276,69 +276,65 @@ li .liste-link:hover,
 }
 
 /**********************working process****************************/
-.working-process{
+.working-process {
   padding: 4.8rem 9.6rem;
-
 }
-.process-working{
+.process-working {
   font-size: 1.8rem;
 }
 
-.img{
+.img {
   height: 12rem;
   border-radius: 8px;
 }
 
-.boxes-process{
+.boxes-process {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
-  
-  
 }
-.boxx{
+.boxx {
   margin-top: 30px;
   text-align: center;
 }
 
-.number{
+.number {
   font-weight: 900;
   font-size: 2rem;
   color: #dbdfe6;
-  
 }
 
-.stape{
+.stape {
   font-weight: 800;
   margin-bottom: 10px;
 }
 
 /************************section prcie*******************************/
-.section-pricing{
+.section-pricing {
   padding: 4.8rem 9.6rem;
 }
 
-.pricing{
+.pricing {
   text-align: center;
 }
 
-.price-description{
+.price-description {
   font-weight: 700;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-.price-boxes{
+.price-boxes {
   display: flex;
   justify-content: space-between;
   gap: 5rem;
 }
 
-.box-price{
+.box-price {
   width: 20rem;
   border-radius: 8px;
 }
-.box-top{
+.box-top {
   background-color: #1e5ec4;
   color: #fff;
   border-top-left-radius: 8px;
@@ -346,19 +342,19 @@ li .liste-link:hover,
   position: relative;
 }
 
-.box-title{
+.box-title {
   font-size: 1.8rem;
   text-transform: capitalize;
   padding: 10px;
 }
 
-.box-number{
+.box-number {
   font-size: 2.6rem;
   font-weight: 900;
   padding: 15px;
 }
 
-.box-number::before{
+.box-number::before {
   content: "$";
   font-size: 16px;
   font-weight: normal;
@@ -367,7 +363,7 @@ li .liste-link:hover,
   left: 100px;
 }
 
-.box-number::after{
+.box-number::after {
   content: "/visit";
   font-size: 16px;
   font-weight: normal;
@@ -376,48 +372,46 @@ li .liste-link:hover,
   right: 100px;
 }
 
-.box-bottom{
+.box-bottom {
   background-color: #e9eff9;
   padding: 1.4rem 1.8rem;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  
 }
 
-.box-flexy-list{
-line-height: 1.9em;
-font-weight: 500;
-font-size: 18px;
+.box-flexy-list {
+  line-height: 1.9em;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-.box-list{
+.box-list {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
 /****************************tesmonials******************************/
-.section-testimonial{
+.section-testimonial {
   padding: 4.8rem 9.6rem;
-
 }
 
-.testimoninal{
+.testimoninal {
   text-align: center;
 }
 
-.testimonial-desc{
+.testimonial-desc {
   font-size: 1.8rem;
   margin-bottom: 3rem;
 }
 
-.testimonials-boxes{
+.testimonials-boxes {
   display: flex;
   justify-content: center;
   gap: 3rem;
 }
 
-.testimonial-box{
+.testimonial-box {
   width: 25rem;
   box-shadow: inset 0px 0px 6px 0px #d0d4de;
   padding: 20px;
@@ -425,25 +419,25 @@ font-size: 18px;
   position: relative;
 }
 
-.img-customer{
+.img-customer {
   height: 4rem;
 }
 
-.box-testimo-items{
+.box-testimo-items {
   display: flex;
   gap: 1rem;
 }
 
-.post{
+.post {
   color: #999;
   text-align: start;
 }
 
-.mesage{
+.mesage {
   margin-top: 10px;
   text-align: start;
 }
-.mesage::after{
+.mesage::after {
   content: "”";
   font-size: 10rem;
   color: #f1f3f4;
@@ -453,5 +447,51 @@ font-size: 18px;
   right: 40px;
 }
 
+/*****************section footer**********************************/
+.section-footer {
+  padding: 3rem 9.6rem;
+  background-color: #1e5ec489;
+}
 
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.item1 {
+  max-width: 20rem;
+}
+
+.logo-footer {
+  height: 6rem;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin: 20px 0px;
+}
+
+footer input{
+  width: 80%;
+  height: 30px;
+  border: transparent;
+  padding: 0 5px;
+}
+
+footer button{
+  height: 30px;
+  margin-left: -7px;
+  background-color: #1e5ec4;
+  color: #fff;
+  font-weight: 500;
+  border: transparent;
+  padding: 0 5px;
+}
+
+
+.footer-list{
+  line-height: 1.8em;
+  list-style: none;
   
+}
