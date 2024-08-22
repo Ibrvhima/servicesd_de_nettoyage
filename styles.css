@@ -408,12 +408,20 @@ font-size: 18px;
 
 .testimonial-desc{
   font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.testimonials-boxes{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .testimonial-box{
-  width: 30rem;
-  border: 1px solid black;
-  padding: 10px;
+  width: 25rem;
+  box-shadow: inset 0px 0px 6px 0px #d0d4de;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .img-customer{
@@ -422,6 +430,15 @@ font-size: 18px;
 
 .box-testimo-items{
   display: flex;
-  justify-content: center;
   gap: 1rem;
+}
+
+.post{
+  color: #999;
+  text-align: start;
+}
+
+.mesage{
+  margin-top: 10px;
+  text-align: start;
 }
