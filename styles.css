@@ -495,3 +495,9 @@ footer button{
   list-style: none;
   
 }
+
+.list-contacts{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
