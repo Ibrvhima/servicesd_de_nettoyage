@@ -13,6 +13,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #FFF;
+
 }
 .logo {
   padding: 0 4rem;
@@ -65,6 +72,14 @@ li .liste-link:hover,
   font-size: 3.2rem;
   line-height: 1em;
   margin-bottom: 1rem;
+  white-space: wrap;
+  overflow: hidden;
+  animation: clignote 2s steps(5, start) infinite;
+}
+@keyframes clignote{
+  100%{
+    opacity: 0;
+  }
 }
 
 .hero-text {
@@ -283,6 +298,8 @@ li .liste-link:hover,
   font-size: 1.8rem;
 }
 
+
+
 .img {
   height: 12rem;
   border-radius: 8px;
@@ -391,6 +408,17 @@ li .liste-link:hover,
   gap: 10px;
 }
 
+.close-outline {
+  color: red;
+  border-radius: 50px;
+  border: 1px solid #1e5ec4;
+}
+
+.checkmark-outline {
+  color: green;
+  border-radius: 50px;
+  border: 1px solid #1e5ec4;
+}
 /****************************tesmonials******************************/
 .section-testimonial {
   padding: 4.8rem 9.6rem;
@@ -472,14 +500,14 @@ li .liste-link:hover,
   margin: 20px 0px;
 }
 
-footer input{
+footer input {
   width: 80%;
   height: 30px;
   border: transparent;
   padding: 0 5px;
 }
 
-footer button{
+footer button {
   height: 30px;
   margin-left: -7px;
   background-color: #1e5ec4;
@@ -489,27 +517,25 @@ footer button{
   padding: 0 5px;
 }
 
-
-.footer-list{
+.footer-list {
   line-height: 1.8em;
   list-style: none;
-  
 }
 
-.list-contacts{
+.list-contacts {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.footer-list-links a{
+.footer-list-links a {
   text-decoration: none;
   color: #333;
 }
 
-.item4{
+.item4 {
   line-height: 2em;
 }
-.item4 h4{
+.item4 h4 {
   margin-top: -10px;
 }
